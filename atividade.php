@@ -1,19 +1,19 @@
 <?php
 
 class Pessoa {
-    // Torna o nome privado
+    // nome 
     private $nome;
 
     public function __construct($nome) {
-        $this->setNome($nome); // Usando setter para definir o nome
+        $this->setNome($nome); 
     }
 
-    // Getter para acessar o nome
+  
     public function getNome() {
         return $this->nome;
     }
 
-    // Setter para alterar o nome, se necessário
+
     public function setNome($nome) {
         $this->nome = $nome;
     }
@@ -47,7 +47,7 @@ class Funcionario extends Pessoa {
     }
 }
 
-// Criando os objetos
+
 $aluno = new Aluno("gustavo");
 $professor = new Professor("Mariana");
 $diretor = new Diretor("rafael");
