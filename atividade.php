@@ -58,6 +58,7 @@ $aluno->conversarComProfessor();
 $professor->responderAluno();
 
 
+
 $diretor->cumprimentar();
 $funcionario->responderDiretor();
 
